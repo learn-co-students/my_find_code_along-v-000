@@ -7,9 +7,7 @@ def my_find(collection)
 #For each element in the collection, you're going to yield to the block.
      i += 1
   end
-
 end
-
 
 
 # def my_find(collection)
