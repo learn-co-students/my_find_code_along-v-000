@@ -1,14 +1,14 @@
 require 'pry'
 
 
-def my_find(collection)
+def my_find(collect)
   i = 0
   
-  while i < collection.length
-    if yield(collection[i])
-      return collection[i]
+  while i < collect.length
+    if yield(collect[i])
+      return collect[i]
     end
-    i = i + 1
+    i += 1
   end
 end
 
