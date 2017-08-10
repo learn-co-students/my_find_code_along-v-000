@@ -2,12 +2,8 @@ require 'pry'
 
 def my_find(collection)
   counter = 0
-  bool = false
-  while counter < collection.length && bool == false
-    bool = yield(collection[counter])
-    if bool
-      return collection[counter]
-    end
+  while counter < collection.length
+    return collection[counter] if yield(collection[counter])
     counter+= 1
   end
   return
