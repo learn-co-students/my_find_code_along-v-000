@@ -27,7 +27,7 @@ describe "#my_find" do
   it "returns the elements from the array when the block condition is met" do
     expect(my_find(collection) {|i| i % 3 == 0 && i % 5 == 0 }).to eq(15)
   end
-  
+
   it "returns nil when the block condition is not met" do
     expect(my_find(collection) {|i| i % 200 == 0}).to eq(nil)
   end
