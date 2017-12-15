@@ -3,7 +3,7 @@ require 'pry'
 def my_find(col)
   i = 0
   while i < col.length
-    return collection[i] if yield(col[i])
+    return col[i] if yield(col[i])
     i += 1
   end
 end
