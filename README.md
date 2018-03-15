@@ -10,7 +10,7 @@
 Fork and clone this lab. You'll be coding your solution in `lib/my_find.rb`. If at any point you want to follow along with the example, you can put a `binding.pry` anywhere in the method and run `ruby bin/my_find` in your terminal to pry around.
 
 ###Step 1
-We need to iterate through each element in the passed in collection using the simple lower level iterator `while`. Remember, since this is a lower level iterator, we will need to explicitly add a counter we'll call `i`, and increment it each time we go into the loop (`i = i + 1`):
+We need to iterate through each element passed in the collection using the simple lower level iterator `while`. Remember, since this is a lower level iterator, we will need to explicitly add a counter we'll call `i`, and increment it each time we go into the loop (`i = i + 1`):
 
 ```ruby
 def my_find(collection)
