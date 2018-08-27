@@ -1,7 +1,6 @@
 require 'pry'
 
 def my_find(collection)
-block = []
 i = 0
 while i < collection.length
 if yield(collection[i])
