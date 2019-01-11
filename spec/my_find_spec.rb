@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
 require_relative '../lib/my_find.rb'
 
-puts describe "#my_find" do
+ describe "#my_find" do
   let(:collection) { (1..100).to_a }
 
   it "does not call on #find" do
