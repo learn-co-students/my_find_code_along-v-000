@@ -1,4 +1,5 @@
 require_relative "../lib/my_find.rb"
 
 collection = (1..100).to_a
+binding.pry
 my_find(collection) {|i| i % 3 == 0 && i % 5 == 0 }
