@@ -35,7 +35,7 @@ def my_find(collection)
 end
 ```
 
-When this code is run and it hits the `yield` line, it is going to send whatever is passed in as the argument to the block. 
+When this code is run and it hits the `yield` line, it is going to send whatever is passed in as the argument to the block.
 
 *Note: If you are confused about where the block comes from, it becomes clearer after the method is called. Here's an example:*
 
